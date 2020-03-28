@@ -1,0 +1,21 @@
+<p>book works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>Code</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor ="let b of books">
+            <td>{{b.title}}</td>
+            <td>{{b.author}}</td>
+            <td>{{b.publisher}}</td>
+            <td>{{b.code}}</td>
+            <td>{{b.available}}</td>
+        </tr>
+    </tbody>
+</table>
